@@ -8,7 +8,7 @@ number = []
 for i in range(count):
 
 
-     num = int(input("lease enter number" + str(i+1) + ":"))
+     num = int(input("lease enter number" + str (i + 1) + ":"))
 
 number.append(num)
 print(number)
@@ -19,19 +19,19 @@ print(len(number))
 
 #2
 start = int(input("Enter start number: "))
-end = int("Enter end number: ")
+end = int(input("Enter end number: "))
 
-numbers = []
+numbers1 = []
 
 for i in range(start, end):
-       numbers.append(i)
+       numbers1.append(i)
 
-print(numbers)
+print(numbers1)
 
 
-print(max(numbers))
-print(min(numbers))
-print(sum(numbers))
+print(max(numbers1))
+print(min(numbers1))
+print(sum(numbers1))
 
 #3
 numbers = []
